@@ -29,8 +29,8 @@
 
 forcemaintainmode='0'                             # 0:all put in maintain,1,just devdeskos in maintain
 
-export autoDEBMIRROR0=https://github.com/minlearn/inst/raw/master
-export autoDEBMIRROR1=https://gitee.com/minlearn/inst/raw/master
+export autoDEBMIRROR0=https://github.com/m-tq/inst/raw/master
+export autoDEBMIRROR1=https://github.com/minlearn/inst/raw/master
 export FORCEDEBMIRROR=''                          # force apply a fixed mirror/targetddurl selection to force override autoselectdebmirror results based on -t -m args given
 export tmpTARGETMODE='0'                          # 0:WGETDD INSTMODE ONLY 1:CLOUDDDINSTALL+BUILD MIXTURE,2,3,nc install mode,defaultly it sholudbe 0, 4 inplace dd mode for debianctmu(lxcct,or kvmct) or debiandemu
 export tmpTARGET=''                               # dummy(for -d only),debianbase,onekeydevdesk,devdeskos,lxcdebtpl,lxcdebiantpl,qemudebtpl,qemudebiantpl,devdeskosfull,debian,debian10restore,debianct,debiandemu,debianctmu
